@@ -1,9 +1,9 @@
 {
-    "name": "qalblang",
-    "displayName": "qalblang",
-    "description": "",
+    "name": "Ya",
+    "displayName": "ي",
+    "description": "Ya Language Support",
     "version": "0.0.1",
-    "publisher": "qalblang",
+    "publisher": "Ya",
     "engines": {
         "vscode": "^1.25.0"
     },
@@ -11,16 +11,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "qalb",
-            "aliases": ["qalb", "qalb"],
-            "extensions": [".qalb",".ql",".قلب"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "qalb",
-            "scopeName": "text.html.ql",
-            "path": "./syntaxes/qalb.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "ya",
+                "aliases": [
+                    "yalang",
+                    "ي"
+                ],
+                "extensions": [
+                    ".ي"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ya",
+                "scopeName": "text.html.ي",
+                "path": "./syntaxes/ya.tmLanguage.json"
+            }
+        ]
     }
 }
